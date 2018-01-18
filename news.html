@@ -9,7 +9,26 @@
   <title>NEWS | 株式会社サンプル</title>
   <meta name="description" content="">
   <meta name="author" content="">
+
+
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/company.css">
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
   <!-- facebook
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div id="fb-root"></div>
@@ -23,25 +42,6 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   </script>
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/news.css">
-
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-</head>
-
-<body>
-
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <header>
@@ -87,7 +87,7 @@
     <div class="container">
       <div class="row">
         <div id="main" class="nine columns navi">
-          <h2>ニュースリリース</h2>
+          <h2 class="news">ニュースリリース</h2>
           <ul class="news_li">
             <li><span>0000-00-00</span>ここにニューステキストが入ります。ここにニューステキストが入ります。</li>
             <li><span>0000-00-00</span>ここにニューステキストが入ります。ここにニューステキストが入ります。</li>
@@ -129,7 +129,7 @@
         </div>
         <div class="four columns foot_address sp">
           〒000-0000
-          <br>東京都◯◯区◯◯町560-0-0
+          <br>東京都◯◯区◯◯町 560-0-0
           <br>03-0000-0000
           <br>info@xxxxxx.com
         </div>
@@ -141,13 +141,14 @@
           </ul>
         </div>
       </div>
-      <div class="row">
-        <div class="twelve columns sp">
-          <p class="copy">copyright (C) SampleCompany all rights reserved.</p>
-        </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns sp">
+        <p class="copy">copyright (C) SampleCompany all rights reserved.</p>
       </div>
+    </div>
   </footer>
-  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script>
     $(function() {
 
